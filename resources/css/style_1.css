@@ -1,0 +1,76 @@
+body {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.page_header {
+    font-family: monospace;
+    text-align: center;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.yellow {
+    color: rgba(255, 189, 7, 0.8);
+}
+
+#yellow_bg {
+    background-color: rgba(255, 189, 7, 0.8);
+}
+
+#purple_bg {
+    background-color: rgb(103, 58, 183);
+}
+
+#blue_bg {
+    background-color: rgba(59, 56, 238, 0.8);
+}
+
+a.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-size: 20px;
+    margin: 0 auto;
+    position: relative;
+    top: 260px;
+    width: 100px;
+    height: 100px;
+    font-family: monospace;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+a:visited {
+    text-decoration: none;
+  }
+
+a.button#yellow_bg:hover {
+    background-color: rgba(255, 189, 7, 0.6);
+}
+
+a.button#purple_bg:hover {
+    background-color: rgba(103, 58, 183, 0.8);
+}
+
+a.button#blue_bg:hover {
+    background-color: rgba(59, 56, 238, 0.6);
+}
+
+a.button#yellow_bg:active {
+    background-color: rgba(255, 189, 7, 0.4);
+}
+
+a.button#purple_bg:active {
+    background-color: rgba(103, 58, 183, 0.6);
+}
+
+a.button#blue_bg:active {
+    background-color: rgba(59, 56, 238, 0.4);
+}
