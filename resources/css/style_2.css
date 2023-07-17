@@ -1,25 +1,25 @@
-body {
+body, html {
     background-color: rgba(0, 0, 0, 0.8);
-}
-
-.page_header {
-    font-family: monospace;
-    text-align: center;
-    font-size: 40px;
-    color: rgba(255, 255, 255, 0.8);
-}
-
-.yellow {
-    color: rgba(255, 189, 7, 0.8);
-}
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
 
 .color {
-    display: inline-block;
-    width: 30%;
-    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     font-family: monospace;
     color: white;
+}
+
+.color h3, .color h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 #purple {
@@ -30,6 +30,25 @@ body {
     background-color: rgb(255, 189, 7);
 }
 
-#green {
-    background-color: rgb(36, 216, 75);
+#blue {
+    background-color: rgb(36, 174, 216);
+}
+
+.back_button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: large;
+}
+
+.centered {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100vh;
 }

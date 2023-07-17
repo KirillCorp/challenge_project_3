@@ -1,0 +1,185 @@
+body {
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+  
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.back_button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: large;
+}
+
+.font {
+    color: white;
+    text-align: center;
+    padding: 100px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 20px;
+}
+
+.centered {
+    width: 100%;
+    height: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google_fonts_button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+
+/* Space Mono Font */
+
+.space_mono {
+    font-family: 'Space Mono';
+}
+
+#space_mono_thin {
+    font-family: 'Space Mono';
+    font-weight: 100;
+    font-style: normal;
+}
+
+#space_mono_thin_italic {
+    font-family: 'Space Mono';
+    font-weight: 100;
+    font-style: italic;
+}
+
+#space_mono_regular {
+    font-family: 'Space Mono';
+    font-weight: 400;
+    font-style: normal;
+}
+
+#space_mono_regular_italic {
+    font-family: 'Space Mono';
+    font-weight: 400;
+    font-style: italic;
+}
+
+#space_mono_bold {
+    font-family: 'Space Mono';
+    font-weight: 700;
+    font-style: normal;
+}
+
+#space_mono_bold_italic {
+    font-family: 'Space Mono';
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Roboto Font */
+
+.roboto {
+    font-family: Roboto;
+}
+
+#roboto_thin {
+    font-family: Roboto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+#roboto_thin_italic {
+    font-family: Roboto;
+    font-weight: 100;
+    font-style: italic;
+}
+
+#roboto_regular {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#roboto_regular_italic {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#roboto_bold {
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#roboto_bold_italic {
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Open Sans Font */
+
+.open_sans {
+    font-family: 'Open Sans';
+}
+
+#open_sans_thin {
+    font-family: 'Open Sans';
+    font-weight: 100;
+    font-style: normal;
+}
+
+#open_sans_thin_italic {
+    font-family: 'Open Sans';
+    font-weight: 100;
+    font-style: italic;
+}
+
+#open_sans_regular {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: normal;
+}
+
+#open_sans_regular_italic {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: italic;
+}
+
+#open_sans_bold {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-style: normal;
+}
+
+#open_sans_bold_italic {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-style: italic;
+}
